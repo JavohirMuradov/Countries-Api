@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --Very-Dark-Blue: #111517;
+    --Dark-Gray: hsl(0, 0%, 52%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    --White: #ffffff;
+  }
+
+  .dark {
+    --Very-Dark-Blue: #dee3e8;
+    --Very-Light-Gray: #202c37;
+    --White: #2b3945;
+  }
+}
