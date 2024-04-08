@@ -61,14 +61,14 @@ const Main = () => {
                     <select
                         value={selectedRegion}
                         onChange={handleRegionChange}
-                        className="px-3 py-2.5 rounded-[7px] bg-transparent border text-text focus:outline-none border-text"
+                        className="px-3 py-2.5 rounded-[7px] bg-background border text-text focus:outline-none border-text"
                     >
-                        <option value="" className='bg-transparent'>All Regions</option>
-                        <option value="africa" className='bg-transparent'>Africa</option>
-                        <option value="americas" className='bg-transparent'>Americas</option>
-                        <option value="asia" className='bg-transparent'>Asia</option>
-                        <option value="europe" className='bg-transparent'>Europe</option>
-                        <option value="oceania" className='bg-transparent'>Oceania</option>
+                        <option value="" className='bg-background'>All Regions</option>
+                        <option value="africa" className='bg-background'>Africa</option>
+                        <option value="americas" className='bg-background'>Americas</option>
+                        <option value="asia" className='bg-background'>Asia</option>
+                        <option value="europe" className='bg-background'>Europe</option>
+                        <option value="oceania" className='bg-background'>Oceania</option>
                     </select>
                 </div>
                 {filteredData.map((country) => (
